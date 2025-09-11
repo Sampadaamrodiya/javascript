@@ -38,7 +38,9 @@ form2.addEventListener("submit",(e)=>{
         pass:form2[1].value
     }
 
-    if(dataobj.email==loginobj.email && dataobj.pass==loginpass.pass)
-        promt
+    if(dataobj.email==loginobj.email && dataobj.pass==loginobj.pass)
+        prompt("login successful")
+    else
+        prompt("errorr")
 
 })

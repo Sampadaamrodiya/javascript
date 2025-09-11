@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let arr=[1,2,3,4,5,64,3,5,2,2,34];
+    //     let data =arr.map((a)=>{
+    //         return a>2
+    // }) its output is true or false
+
+        let data =arr.sort((a,b)=>{
+            return a-b
+    })
+        console.log(data)
+
+        let obj={
+            id:1,
+            name:"ankit",
+            sum:function(){
+                console.log("hehehe")
+            }
+        }
+        obj.sum()
+        console.log(obj.id)
+    </script>
+</body>
+</html>

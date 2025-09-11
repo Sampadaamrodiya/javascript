@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+       
+        let a=3;
+        function sum(){
+            a+=5;
+            return a
+        }
+        console.log(sum());
+
+        
+        var b=2;
+        function multiply(){
+            b*=2;
+            return b;
+        }
+        console.log(multiply());
+
+        
+        const c=6
+        function divide(){
+            b=c/2
+            return b;
+        }
+        console.log(divide())
+
+console.log("--------");
+        let x=3;
+        {
+            // console.log(x); cannot access before initialization
+            let x=5;
+            console.log(x);
+        }
+        console.log(x+"....");
+
+        var y=2;
+        {
+            console.log(y);
+            var y=4;
+            console.log(y);
+        }
+        console.log(y+"....");
+
+        const z=7;
+        {
+            // console.log(z); cannot access before initialization
+            const z=9;
+            console.log(z);
+        }
+        console.log(z);
+
+         p=0;
+        {var p=5;}
+        console.log(p);
+    </script>
+</body>
+</html>

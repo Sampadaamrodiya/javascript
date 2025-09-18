@@ -1,6 +1,4 @@
 
-
-
 let key="9f6290d6cda9a36a63755fadee71f83d"
 let city="jabalpur"
 
